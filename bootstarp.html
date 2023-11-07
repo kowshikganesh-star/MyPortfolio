@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+<style>
+   body{
+    font-size: 15px;
+    line-height: 1.5em;
+   }
+    .header{
+        padding:0;
+        margin:0;
+        height:100%;
+        vertical-align: middle;
+        position:relative;
+        
+        
+    }
+    .header .profile-image{
+        position:absolute;
+        left :0;
+        top:0;
+        
+        width:100%;
+        height:100%;
+        z-index:-1;
+        /*background-image: url("flower.jpg");*/
+        background-image: linear-gradient(90deg, rgb(235, 230, 230), rgb(187, 187, 201));
+        background-position: center;
+        background-size: cover;
+    }
+
+    .header .content{
+        position:sticky;
+        top:10%;
+        left :0;
+        width:100%;
+        margin: 0px auto;
+        padding:10%;
+    }
+   .social-icon{
+    display:block;
+   
+   }
+    .social-icon li{
+            display:inline-block;
+            margin:0 2px;
+            width:50px;
+   }
+  .social-icon li a i{
+    
+    border-radius: 100%;
+    border: 2px solid bisque;
+    color:rgb(128, 0, 94);
+    padding:10px;
+    
+  }
+  span{
+       padding-left: 100px;
+  }
+  #s{
+    padding-left: 145px;
+  }
+  .lead{
+    background-color: rgb(198, 234, 234);
+  }
+  .h{
+          font-size:20px;
+  }
+  
+</style>
+<body>
+  <div class="main wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+                <header class="header">
+                    <div class="content text-center">
+                        <h1>Hi, i'm Kowshik</h1>
+                        <p>java Developer</p>
+                        <ul class="social-icon">
+                         <!--   <li><a href=""><i class="fa-brands fa-facebook" ></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li> -->
+                            <li><a href="https://github.com/kowshikganesh-star" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/kowshik-ganesh-full-stack-developer/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                        <p>Email: Kowshikganesh2002@gmail.com</p>
+                        <p>Phone no: 6300598688</p>
+                    </div>
+                    <div class="profile-image"></div>
+                </header>
+            </div>
+            <div class="col-md-7">
+               <h1>Summary</h1>
+               <p>
+                
+                
+                Fresher Java Developer with a strong foundation in core Java concepts and experience in developing web applications using HTML, CSS, Bootstrap, and MySQL. Eager to learn and contribute to a team of experienced developers.
+               </p>
+               <div><p class="lead ">Technical skills</p>
+                <ul>
+                <li>Html</li>
+                <li>CSS</li>
+                <li>bootstrap</li>
+                <li>Core Java</li>
+                <li>JDBC</li>
+                <li>J2EE</li>
+                <li>MySQL</li>
+                </ul>
+               </div>
+
+               <div ><p class="lead">Education</p>
+                <p ><b>B.Tech</b></p>
+
+                <p>Computer sceience and engineering</p>
+                <p>N.B.K.R.I.S.T <span>CGPA: 7.0</span></p>
+
+                <p><b>Intermediate</b></p>
+                <p>MPC <span id="s">CGPA: 8.1</span></p>
+                <p>Narayana junior college</p>
+
+
+               </div>
+
+               <div>
+                <p class="lead">Personal projects</p>
+              
+                <h1 class="h">Employee Management System</h1>
+                <ul>
+              <li><p>Developed and implemented an innovative Employee Management System (EMS) utilizing Java, Advanced Java, MySQL, and HTML, CSS.</p></li>  
+              <li><p> We implemented a comprehensive employee record management system with features including adding, editing, deleting, searching, and sorting records.</p></li>
+                    <p> Tools Used: Java, Advance Java, MySQL, HTML, CSS</p>
+               </div>
+            </div>
+    </div>
+
+  </div>
+  
+</body>
+</html>
